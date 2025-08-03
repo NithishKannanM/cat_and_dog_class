@@ -25,8 +25,8 @@ cat-vs-dog-resnet50/
 ├── utils/
 │   └── preprocessing.py         # Augmentation and preprocessing
 ├── loss_accuracy_plot.png       # Training vs Validation loss graph
-├── inference.ipynb              # Test predictions
-├── train_resnet50.py            # Main training script
+├── main.ipynb                   # from scratch
+├── resnet50.py                  # Main training script
 └── README.md
 ```
 
@@ -34,11 +34,12 @@ cat-vs-dog-resnet50/
 
 ## 📊 Model Performance
 
+* **Training Accuracy from scratch**: \~66%
 * **Training Accuracy**: \~99%
 * **Validation Accuracy**: \~95%
 * **Validation Loss Curve**: Slight overfitting detected after 3rd epoch
 
-![Training vs Validation Loss](./after droupout.png)
+![Training vs Validation Loss](./after_droupout.png)
 
 ---
 
@@ -74,11 +75,8 @@ cat-vs-dog-resnet50/
 3. **Train the model**
 
    ```bash
-   python train_resnet50.py
+   python resnet50.py
    ```
-
-4. **Evaluate and visualize**
-   Use `inference.ipynb` to load the trained model and test on new images.
 
 ---
 
