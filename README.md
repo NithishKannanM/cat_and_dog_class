@@ -10,7 +10,7 @@ This project uses **ResNet50**, a pre-trained deep convolutional neural network,
 * ✅ Uses **Transfer Learning** with **ResNet50**
 * ✅ Implements **Early Stopping** and **Learning Rate Scheduler**
 * ✅ Achieves **95%+ validation accuracy**
-* ❗Validation loss indicates **some overfitting** — explored via training curves
+
 
 ---
 
@@ -93,7 +93,6 @@ cat-vs-dog-resnet50/
 * 👨‍💻 [Nithish Kannan M](https://www.linkedin.com/in/nithish-kannan-m/)
 * 🏫 2nd Year B.Tech CSE, Vellore Institute of Technology, Chennai
 * 🧠 Passionate about ML/AI and automation
-* 🤖 Android Club UI/UX Developer
 
 ---
 
